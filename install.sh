@@ -23,7 +23,7 @@ apk del wget
 cd /root
 wget https://github.com/ronggang/transmission-web-control/raw/master/release/install-tr-control-cn.sh
 chmod +x install-tr-control-cn.sh
-sh install-tr-control-cn.sh auto
+sh install-tr-control-cn.sh auto /usr/share/transmission
 
 #初始化任务
 /usr/bin/transmission-daemon
